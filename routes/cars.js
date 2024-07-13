@@ -22,7 +22,6 @@ const cars = [
 // router code here, all routes will be prefixed with /cars
 router.get('/', (req, res) => {
 	// router code here
-
 	res.send(cars);
 });
 
