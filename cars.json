@@ -1,0 +1,40 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "id": {
+                "type": "string"
+            },
+            "make": {
+                "type": "string"
+            },
+            "model": {
+                "type": "string"
+            },
+            "year": {
+                "type": "number"
+            },
+            "color": {
+                "type": "string"
+            },
+            "price": {
+                "type": "number"
+            },
+            "description": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "id",
+            "make",
+            "model",
+            "year",
+            "color",
+            "price",
+            "description"
+        ],
+        "additionalProperties": false
+    }
+}
